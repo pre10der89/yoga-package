@@ -1,0 +1,3 @@
+[submodule "Facebook.Yoga"]
+	path = Facebook.Yoga
+	url = git://github.com/facebook/yoga.git
