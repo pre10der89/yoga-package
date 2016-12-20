@@ -12,8 +12,8 @@ build_script:
 - cmd: >-
     set DEVENV="%VS140COMNTOOLS%\..\IDE\devenv"
 
-    %DEVENV% /build "release|x86" css-layout\csharp\Facebook.Yoga.sln
+    %DEVENV% /build "release|x86" yoga\csharp\Facebook.Yoga.sln
 
-    %DEVENV% /build "release|x64" css-layout\csharp\Facebook.Yoga.sln
+    %DEVENV% /build "release|x64" yoga\csharp\Facebook.Yoga.sln
 
-    %DEVENV% /build "release|arm" css-layout\csharp\Facebook.Yoga.sln
+    %DEVENV% /build "release|arm" yoga\csharp\Facebook.Yoga.sln
