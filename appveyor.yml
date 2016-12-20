@@ -15,5 +15,3 @@ build_script:
     %DEVENV% /build "release|x86" yoga\csharp\Facebook.Yoga.sln
 
     %DEVENV% /build "release|x64" yoga\csharp\Facebook.Yoga.sln
-
-    %DEVENV% /build "release|arm" yoga\csharp\Facebook.Yoga.sln
